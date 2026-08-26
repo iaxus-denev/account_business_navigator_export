@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_bn_export_wizard_user,business.navigator.export.wizard user,model_business_navigator_export_wizard,group_bn_export_user,1,1,1,1
+access_bn_export_batch_user,business.navigator.export.batch user,model_business_navigator_export_batch,group_bn_export_user,1,0,1,0
+access_bn_export_batch_manager,business.navigator.export.batch manager,model_business_navigator_export_batch,group_bn_export_manager,1,1,1,1
+access_bn_export_file_user,business.navigator.export.file user,model_business_navigator_export_file,group_bn_export_user,1,0,1,0
+access_bn_export_file_manager,business.navigator.export.file manager,model_business_navigator_export_file,group_bn_export_manager,1,1,1,1

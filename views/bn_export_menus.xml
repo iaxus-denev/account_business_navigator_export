@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <menuitem id="menu_bn_export_root"
+              name="Business Navigator"
+              parent="account.menu_finance_reports"
+              groups="group_bn_export_user"
+              sequence="90"/>
+
+    <menuitem id="menu_bn_export_wizard"
+              name="Export"
+              parent="menu_bn_export_root"
+              action="action_bn_export_wizard"
+              groups="group_bn_export_user"
+              sequence="10"/>
+
+    <menuitem id="menu_bn_export_batch"
+              name="Export History"
+              parent="menu_bn_export_root"
+              action="action_bn_export_batch"
+              groups="group_bn_export_user"
+              sequence="20"/>
+</odoo>

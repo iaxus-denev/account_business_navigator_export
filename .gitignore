@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*.so
+.coverage
+.pytest_cache/
+.mypy_cache/
+.vscode/
+.idea/

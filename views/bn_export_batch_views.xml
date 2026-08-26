@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="view_bn_export_batch_list" model="ir.ui.view">
+        <field name="name">business.navigator.export.batch.list</field>
+        <field name="model">business.navigator.export.batch</field>
+        <field name="arch" type="xml">
+            <list string="Business Navigator Export History">
+                <field name="name"/>
+                <field name="company_id"/>
+                <field name="date_from"/>
+                <field name="date_to"/>
+                <field name="state" widget="badge"
+                       decoration-success="state == 'done'"
+                       decoration-danger="state == 'failed'"
+                       decoration-info="state == 'validating'"/>
+                <field name="document_count"/>
+                <field name="line_count"/>
+                <field name="warning_count"/>
+                <field name="requested_by"/>
+                <field name="requested_at"/>
+            </list>
+        </field>
+    </record>
+
+    <record id="view_bn_export_batch_form" model="ir.ui.view">
+        <field name="name">business.navigator.export.batch.form</field>
+        <field name="model">business.navigator.export.batch</field>
+        <field name="arch" type="xml">
+            <form string="Business Navigator Export Batch">
+                <header>
+                    <field name="state" widget="statusbar"
+                           statusbar_visible="validating,done,failed"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_download_zip" type="object"
+                                string="Изтегли ZIP" class="oe_stat_button"
+                                icon="fa-download"
+                                invisible="not zip_attachment_id"/>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="company_id"/>
+                            <field name="date_from"/>
+                            <field name="date_to"/>
+                        </group>
+                        <group>
+                            <field name="requested_by"/>
+                            <field name="requested_at"/>
+                            <field name="finished_at"/>
+                        </group>
+                    </group>
+                    <group>
+                        <group>
+                            <field name="document_count"/>
+                            <field name="line_count"/>
+                            <field name="warning_count"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Файлове">
+                            <field name="file_ids">
+                                <list editable="false">
+                                    <field name="file_type"/>
+                                    <field name="filename"/>
+                                    <field name="document_count"/>
+                                    <field name="line_count"/>
+                                    <field name="currency_id" column_invisible="1"/>
+                                    <field name="amount_total"/>
+                                    <field name="byte_size"/>
+                                    <field name="sha256"/>
+                                    <button name="action_download" type="object"
+                                            string="Изтегли" icon="fa-download"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page string="Резултат / Грешки">
+                            <field name="result_message" readonly="1" nolabel="1"
+                                   widget="text"/>
+                        </page>
+                        <page string="Бележка">
+                            <field name="note" nolabel="1"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="action_bn_export_batch" model="ir.actions.act_window">
+        <field name="name">Business Navigator Export History</field>
+        <field name="res_model">business.navigator.export.batch</field>
+        <field name="view_mode">list,form</field>
+    </record>
+</odoo>

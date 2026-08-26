@@ -1,0 +1,333 @@
+17-07-2026	фак.към доставка	982974965	Drill Extender, L 23mm, stainless steel	040.563	25.81	1	-25.81	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	VARIOBASE XC FOR BRIDGE/BAR COPING D 4.6MM, H 7M	023.0040	51.45	30	-1543.37	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RC Cementable abutment, D 5mm, GH 2mm, AH 5.5	022.4326	78.51	5	-392.56	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HELIX SHORT ACQUA IMPLANT,TI, 4.0X7.0 mm	140.1068	52.58	5	-262.90	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HELIX SHORT ACQUA IMPLANT,TI, 3.75X5.5 mm	140.1083	52.58	7	-368.06	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HELIX SHORT ACQUA IMPLANT,TI, 3.75X5.5 mm	140.1083	52.58	3	-157.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HELIX SHORT ACQUA IMPLANT,TI, 4.0X7.0 mm	140.1068	52.58	5	-262.90	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB VB XC Bri/Bar, D4.5,GH2.5,AH7,TAN	062.5069	55.13	30	-1653.81	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	WB VB XC Bri/Bar,D5.5,GH0.75,AH7,TAN	062.5071	55.13	5	-275.63	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB Temporary Abut., for crown D4.5mm, GH1.5mm	064.4372	37.89	5	-189.44	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB Abutment-Removal Screw - TAN	065.0007	7.70	2	-15.40	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB Implant Analog L12	065.0021	23.71	5	-118.53	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB Impression Post Open Tray short, incl. guide	065.0031	24.86	10	-248.63	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RC Screw-ret. Abut.,angled 30°, D4.6mm, GH3.5m,A	022.0158S	73.40	3	-220.21	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RC SCREW-RET. ABUT., TAN - ANGLED 30°, D4.6MM,	022.0159S	73.40	3	-220.21	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	SC Healing Abutment, conical, oval, H 2mm, Ti	024.0007S	17.21	2	-34.42	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	NC Healing abutment, conical shape D4.8 H 3.5	024.2244S	17.21	6	-103.25	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	TLX S Implant, D3.75mm RT, SLActive® 10mm, Roxo	035.1110S	150.84	5	-754.21	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	TLC SP Implant,D4.5mm RT,SLActive® 8mm,Roxolid	035.7508S	150.84	2	-301.68	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	BLC Implant, D 3.3mm RB, SLActive® 10mm, Roxolid	035.9010S	150.84	10	-1508.42	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	BLC Implant, D 3.75mm RB, SLActive® 6mm, Roxolid	035.9206S	150.84	5	-754.21	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	BLC Implant, D 3.75mm RB, SLActive® 8mm, Roxolid	035.9208S	150.84	5	-754.21	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	BLC Implant,D 3.75mm RB,SLActive® 12mm, Roxolid	035.9212S	150.84	5	-754.21	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	BLC Implant, D 4.0mm RB, SLActive® 10mm, Roxolid	035.9310S	150.84	15	-2262.67	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	BLC Implant, D 4.0mm RB, SLActive® 12mm, Roxolid	035.9312S	150.84	10	-1508.42	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	BLC Implant,D4.5mm WB,SLActive® 6mm,Roxolid®	035.9406S	150.84	5	-754.21	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	NT Healing Cap, D 4mm, H 3mm, Ti	036.0203S	19.06	5	-95.30	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Locator replacement male, extra light reten,red	048.194V4	17.21	1	-17.21	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB SR Abut. angled 17, D4.6, GH 3.5 TAN	062.4733S	83.98	10	-839.83	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB SR Abut., angled 17°,D4.6mm, GH 4.5	062.4734S	83.98	2	-167.97	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB  Screw-ret. Abt,17°,D4.6,GH5.5,TAN	062.4735S	83.98	10	-839.83	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB SR Abut., angled 30, D 4.6, GH 3.5, TAN	062.4743S	83.98	5	-419.91	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB SR Abut., angled 30°, D4.6mm, GH 4.5mm, TA	062.4744S	83.98	5	-419.91	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB Closure Cap, Crown, H 0.4mm, Ti	064.4100S	18.96	50	-947.95	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB Healing Abut., Crown, D4 mm,GH 3.5 mm, AH2	064.4206S	18.96	6	-113.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB Healing Abut. Crown, D5 mm,GH 1.5 mm, AH 2	064.4212S	18.96	6	-113.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB Healing Abut, Crown, D6.5mm,GH2.5mm AH2mm	064.4224S	18.96	6	-113.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB Healing Abut., Crown, D 6.5, GH 2.5, AH 4	064.4225S	18.96	6	-113.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	WB Closure Cap, H 0.5mm, Ti	064.8102S	18.96	6	-113.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	WB Healing Abutment D 7.5 mm, GH 1.5 mm, AH 2 mm	064.8214S	18.96	2	-37.92	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Novaloc® Processing Package, Ti / POM / PEEK /	2010.601-NOV	44.96	10	-449.58	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Novaloc® Scanbody PEEK, 4 pcs.	2010.726-NOV	17.70	1	-17.70	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	BLC/TLC Profile Drill, short, FIBA Ш 3.3mm, L 27	034.362	33.17	1	-33.17	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	BLC/TLC Profile Drill, short, FIBA Ш 3.75mm, L26	034.363	33.17	1	-33.17	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Drill Extender, L 23mm, stainless steel	040.563	25.81	1	-25.81	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Roundburr, D 2.3mm, SS	044.003	9.67	1	-9.67	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Holding key	046.064	13.45	1	-13.45	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	X VeloDrill™, guided, D 3.2mm, short, ss	066.1303	29.79	1	-29.79	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	X Pilot VeloDrill, guided, D 2.2mm, medium, ss	066.1501	29.79	1	-29.79	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	X VeloDrill™, guided, D 3.2mm, medium, ss	066.1503	29.79	1	-29.79	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	X VeloDrill™, guided, D 3.7mm, medium, ss	066.1505	29.79	1	-29.79	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	TorcFit™ Implant Driver for ratchet,medium, L 26	066.4207	38.55	1	-38.55	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	NC Variobase® for Crown, D3.8mm, AH5.5mm, GH3mm	022.0108	49.48	1	-49.48	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RC Variobase® for Crown D4.5mm,AH5.5mm,GH2mm	022.0107	49.48	1	-49.48	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RC Variobase® for Crown D4.5 mm AH5.5 mm GH3 mm	022.0109	49.48	1	-49.48	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	SC Impression Post Open Tray, short,screw, L17.1	025.0021	22.58	4	-90.32	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	SC Implant Analog, L 12mm, TAN	025.0023	21.51	4	-86.05	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	SC Healing Abutment, conical, oval, H 2mm, Ti	024.0007S	17.21	1	-17.21	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	SC Healing Abutment, conical, oval, H 3.5mm, Ti	024.0008S	17.21	1	-17.21	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM HELIX INITIAL DRILL, STAINLESS STEEL 2.0 MM	103.453	20.91	2	-41.81	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Neo Manual Screwdriver long,Stainless Steel	104.072	20.25	4	-80.99	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Neo Mini Conical Abutment Coping Screw, Ti.  4.1	116.269	4.49	20	-89.82	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Neo Mini Conical Abutment Coping Screw, Ti.  4.1	116.269	4.49	60	-269.45	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	TWIST DRILL FOR GM HELIX STAINLESS STEEL, 2.35mm	103.462	19.61	2	-39.22	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Exact Titanium Base 5.5x4x3.5	135.382	19.41	5	-97.04	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Mini Conical Abutment, Titanium, 4.5 mm	115.247	34.94	5	-174.72	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Neo Mini Conical Abutment Coping, Titanium, 4.1	118.302	13.83	25	-345.65	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Neo Mini Conical Abutment Coping, Titanium, 4.1	118.302	13.83	5	-69.13	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Mini Conical Abut. Hybrid Repositionable Analog	101.092	7.65	30	-229.60	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Mini Conical Abutment Analog, Titanium, 4.1	101.020	5.99	15	-89.87	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	MINI CONICAL ABUTMENT SCANBODY	108.218	29.04	10	-290.37	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Slim Mini Conical Abut. Open Tray Impr.Coping	108.176	11.53	30	-345.98	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Mini Conical Abutment, Titanium, 0.8 mm	115.243	34.94	15	-524.17	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Mini Conical Abutment, Titanium, 1.5 mm	115.244	34.94	5	-174.72	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Mini Conical Abutment, Titanium, 1.5 mm	115.244	34.95	20	-698.90	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Mini Conical Abutment, Titanium, 2.5 mm	115.245	34.95	10	-349.45	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Mini Conical Abutment, Titanium, 3.5 mm	115.246	34.95	10	-349.45	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Mini Conical Abut. 17, 3.5mm with rem. screw	115.277	41.74	5	-208.72	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Mini Conical Abut. 30, 1.5mm with rem.screw	115.278	41.74	10	-417.44	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Mini Conical Abut. 30°, 3.5mm with rem. screw	115.280	41.74	5	-208.72	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Mini Conical Abutment 30, 2.5mm with rem.scre	115.279	41.74	5	-208.72	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Mini Conical Abutment 30, 2.5mm with rem.scre	115.279	41.74	5	-208.72	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Cover Screw, Titanium	117.021	2.92	5	-14.60	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Cover Screw, Titanium	117.021	2.92	20	-58.42	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Cover Screw, Titanium, 2 mm	117.022	2.92	5	-14.60	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Neo Burn-out Coping Abutment For Crown, Polymer,	118.298	10.12	5	-50.59	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Micro Abutment Titanium 3.5 mm	115.258	33.01	5	-165.03	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Micro Abutment Hybrid Repositionable Analog, Tit	101.091	7.65	10	-76.53	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	NEO MICRO CONICAL ABUTMENT ONE STEP HYBRID COPIN	118.381	13.49	20	-269.83	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Hybrid Repositionable Analog, 3.5/3.75	101.103	7.65	5	-38.27	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Hybrid Repositionable Analog, 3.5/3.75	101.103	7.65	10	-76.53	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Hybrid Repositionable Analog, 4.0/4.3	101.089	7.65	20	-153.07	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Healing Abutment, Titanium, 4.5X2.5 mm	106.215	9.71	5	-48.56	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Healing Abutment, Titanium, 4.5X3.5 mm	106.216	9.71	5	-48.56	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Healing Abutment, Titanium, 4.5X4.5 mm	106.217	9.71	20	-194.24	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Healing Abutment, Titanium, 5.5X2.5 mm	106.251	9.71	5	-48.56	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Healing Abutment, Titanium, 5.5X3.5 mm	106.252	9.71	5	-48.56	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Healing Abutment, Titanium, 6.5X4.5 mm	106.257	9.71	5	-48.56	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Titanium Base with rem. screw 3.5x4x1.5	135.356	19.41	25	-485.19	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Titanium Base 3.5x4x2.5 Rem.Screw	135.357	19.41	5	-97.04	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM TITANIUM BASE 5.5X4X2.5	135.381	19.41	5	-97.04	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM TITANIUM BASE 6.5X6X3.5	135.397	19.39	1	-19.39	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM IMPLANT SCANBODY, TITANIUM	108.207	20.82	5	-104.12	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM TITANIUM BASE FOR BRIDGE 3.5 X 0.8	135.399	19.39	5	-96.96	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Gm Temporary Ab For Crown, Ti, 3.5X1.5 mm	118.345	24.28	5	-121.42	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Temporary Abut. for bridge,Titanium 3.5x1.5	118.353	24.29	2	-48.57	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Temporary Abut. for bridge,Titanium 3.5x1.5	118.353	24.28	1	-24.28	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Temporary Abut. for bridge,Titanium 3.5x1.5	118.353	24.29	2	-48.57	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant 5x10	140.954	52.58	5	-262.90	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 3.5X11.5	140.945	52.58	5	-262.90	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 3.75X11.5	140.978	52.58	5	-262.90	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 4.3x10	140.949	52.58	5	-262.90	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Gm Helix Acqua Implant, Titanium, 6X8mm	140.1009	52.58	5	-262.90	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HELIX SHORT ACQUA IMPLANT,TI, 4.0X7.0 mm	140.1068	52.58	5	-262.90	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Implant, Titanium, 3.75X10 mm	109.977	52.57	5	-262.86	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Implant, Titanium, 3.75X11.5 mm	109.978	52.57	5	-262.86	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Implant, Titanium, 4.3X10 mm	109.949	52.57	5	-262.86	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 4.0X10	140.983	52.58	4	-210.33	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 4.0X10	140.983	52.58	1	-52.58	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 4x11.5	140.984	52.58	3	-157.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 4x11.5	140.984	52.58	3	-157.74	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 4.0X10	140.983	52.58	1	-52.58	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 3.75X13	140.979	52.58	3	-157.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant,  4.0x8	140.982	52.58	1	-52.58	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 3.75X11.5	140.978	52.58	5	-262.90	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 3.75X13	140.979	52.58	2	-105.16	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 5X11.5	140.955	52.58	1	-52.58	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 5.0X13	140.956	52.58	1	-52.58	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 5.0X13	140.956	52.58	1	-52.58	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant 3.75x10	140.977	52.58	3	-157.74	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 4.3x11.5	140.950	52.58	1	-52.58	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 4.3x11.5	140.950	52.58	4	-210.33	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 4.3X13	140.951	52.58	2	-105.16	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 5X11.5	140.955	52.58	1	-52.58	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 4.3x11.5	140.950	52.58	1	-52.58	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 4.3x10	140.949	52.58	10	-525.81	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 3.5X10	140.944	52.58	4	-210.32	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 3.5X11.5	140.945	52.58	1	-52.58	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Helix Acqua Implant, 3.5X13	140.946	52.58	2	-105.16	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Torque Wrench, Stainless Steel	104.050	127.84	4	-511.38	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HS TITANIUM BASE FOR BRIDGE 0.2	135.428	19.41	5	-97.04	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HS TITANIUM BASE FOR BRIDGE 0.2	135.428	19.41	5	-97.04	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HS TITANIUM BASE FOR BRIDGE 1.5	135.429	19.41	2	-38.81	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HS TITANIUM BASE FOR BRIDGE 1.5	135.429	19.41	5	-97.04	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HS TITANIUM BASE FOR BRIDGE 2.5	135.430	19.41	2	-38.81	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HS TITANIUM BASE FOR BRIDGE 2.5	135.430	19.41	5	-97.04	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HS TITANIUM BASE FOR BRIDGE 3.5	135.431	19.41	5	-97.04	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HS EXACT TITANIUM BASE 4.5X0.2	135.424	19.41	5	-97.04	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HS EXACT TITANIUM BASE 4.5X1.5	135.425	19.41	5	-97.04	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HS EXACT TITANIUM BASE 4.5X2.5	135.426	19.41	5	-97.04	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	HS EXACT TITANIUM BASE 4.5X3.5	135.427	19.41	5	-97.04	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	SC Variobase® Abutment, with screw, oval, GH 1mm	022.0038	58.63	3	-175.88	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	RB/WB PMAB, Medentika Holder, D11.5,TAN	062.4601	53.02	2	-106.05	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	Optiloc® Opt. Mount&Dem.Tool f.Ret.Inserts,cours	3202.0001STMC	12.20	1	-12.20	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM TITANIUM BASE FOR BRIDGE 5.5 X 1.5	135.410	19.39	1	-19.39	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Titanium Base with rem. screw 3.5X4X0.8	135.355	19.41	10	-194.08	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974965	GM Exact Abutment 4.8x1.5mm with rem. screw	115.270	30.10	5	-150.51	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	0000336525	DAFILON BLAU 5/0 (1) 75CM DR12 36STK	C0931071	1.78	36	-64	Б.БРАУН МЕДИКАЛ ЕООД	6	BG175016820	BG175016820	Не	
+17-07-2026	фак.към доставка	982977411	BLT Implant, D 3.3mm NC, SLActive® 10mm, Roxolid	021.3310	136.35	10	-1363.55	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLT Implant, D 3.3mm NC,SLActive® 12mm,Roxolid	021.3312	136.35	10	-1363.55	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLT Implant, D 4.1mm RC, SLActive 8mm, Roxolid	021.5308	136.35	20	-2727.10	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLT Implant,  D4.1mm RC, SLActive 10mm Roxolid	021.5310	136.35	40	-5454.19	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLT Implant, D 4.8mm RC, SLActive® 8mm, Roxolid	021.7308	136.35	10	-1363.55	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLT Implant, D 4.8mm RC, SLActive® 10mm, Roxolid	021.7310	136.35	10	-1363.55	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RC  Variobase`, for crown, AH 5.5mm, TAN	022.0026	49.20	30	-1476	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RC Variobase®for Crown, D4.5mm AH3.5mm GH2mm	022.0103	49.20	5	-246	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RC Variobase® for Crown D4.5mm,AH5.5mm,GH2mm	022.0107	49.20	20	-984	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RC Variobase Bridge/Bar Cylindrical, D4.5;AH3.5	022.0111	49.20	40	-1968	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RC Cementable Abutment, D 5mm, GH 2mm, AH 4	022.4322	78.06	1	-78.06	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RC Cementable Abutment, D 5mm, GH 1 mm, AH 5.5	022.4325	78.06	10	-780.60	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RC Cementable Abutment, D 5mm, GH 3mm, AH 5.5	022.4327	78.06	5	-390.30	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RC Cementable Abutment, D 6.5mm, GH 1mm, AH 4	022.4331	78.06	1	-78.06	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	SRA Scanbody D 4.6, incl. ret. screw	025.0081	29.68	5	-148.40	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	Repositionable Implant Analog NC	025.2102	21.39	10	-213.90	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	Repositionable Implant Analog RC	025.4102	21.39	10	-213.90	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RC Impression Post Open Tray	025.4202	22.45	10	-224.50	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RC VarioBase Abutment D4.5 mm, H3.5 mm	025.4921	49.20	50	-2460	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	Repositionable Implant Analog RN	048.129	21.39	5	-106.95	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RN SCANBODY  INCL. RETENTION SCREW	048.384	29.68	2	-59.36	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLX Implant,D3.75 mm RB, SLActive® 12mm Roxolid®	061.4312	149.98	40	-5999.01	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLX Implant - D4.0mm RB, SLActive® 6mm, Roxolid	061.5306	149.97	10	-1499.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLX Implant - D 4.5mm RB, SLActive® 6mm, Roxolid	061.6306	149.97	10	-1499.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLX Implant, D 4.5mm RB, SLActive® 8mm, Roxolid®	061.6308	149.98	5	-749.88	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLX Implant, D 4.5mm RB, SLActive® 8mm, Roxolid®	061.6308	149.97	10	-1499.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLX Implant, D 5.0mm WB, SLActive® 6mm, Roxolid®	061.7306	149.97	10	-1499.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLX Implant, D5.0mm WB, SLActive® 8mm, Roxolid®	061.7308	149.98	25	-3749.38	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLX Implant, D 5, WB, SLActive® 10mm, Roxolid®	061.7310	149.97	10	-1499.75	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLX Implant, D 6.5mm WB, SLActive® 8mm, Roxolid®	061.9308	149.98	5	-749.88	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	BLX Implant, D 6.5 mm, WB, SLActive® 10 mm, Roxo	061.9310	149.98	5	-749.88	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RB/WB Anatomic Abutment, angled 17°, GH 2.5mm, T	062.4153	110.69	2	-221.38	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RB/WB Anatomic Abutment, angled 17°, GH 3.5mm	062.4154	110.69	2	-221.38	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RB/WB Novaloc® ADLC, straight 0°, D3.8mm, GH 1.5	062.4501	85.66	2	-171.32	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RB/WB Novaloc® ADLC, straight 0°,D3.8mm, GH 2.5m	062.4502	85.66	2	-171.32	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RB/WB Novaloc® ADLC, straight 0°, D3.8mm, GH 4.5	062.4504	85.66	2	-171.32	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RB/WB Novaloc ADLC, straight, D 3.8, GH 5.5, TAV	062.4505	85.66	2	-171.32	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RB/WB Novaloc® ADLC straight, D3.8mm, GH 6.5mm	062.4506	85.66	1	-85.66	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	 RT VARIOBASE® XC FOR BRIDGE/BAR D 5mm, AH 7mm	062.5004	54.81	5	-274.05	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RB/WB VB XC f. Crown, D3.8,GH1.5,AH7	062.5017	54.81	30	-1644.30	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RB/WB VB XC f. Crown, D3.8,GH2.5,AH7	062.5018	54.81	10	-548.10	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RB/WB VB XC f. Crown, D4.5,GH1.5,AH7, TA	062.5020	54.81	30	-1644.30	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RB/WB VB XC f. Crown, D4.5,GH2.5,AH7,TA	062.5021	54.81	10	-548.10	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	WB VB XC f. Crown, D5.5,GH0.75,AH7,TAN	062.5023	54.81	5	-274.05	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	NT VB XC f.Crown, D 4mm, AH 7mm,TAN	062.5025	54.81	5	-274.05	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RT Variobase® XC for crown, O.5mm, AH 7mm	062.5026	54.81	5	-274.05	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982977411	RB/WB VB XC Bri/Bar, D3.8,GH1.5,AH7,TAN	062.5065	54.81	10	-548.10	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	Surgical Kit Helix Short	110.318		1		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	BL Bone Profiler 3, D 6mm, L 23mm, stainles	026.0024		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	BLC/TLC Profile Drill, short, FIBA Ш 3.3mm, L 27	034.362		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	BLC Profile Drill, FIBA, D4.0, L26, SST	034.364		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	BLC/TLC Profile Drill, short, FIBA Ш 4.5mm, L 26	034.365		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	BLC/TLC Profile Drill, short, Ш 5.5mm, L 26mm	034.366		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	BLC/TLC Profile Drill, short, Ш 6.5mm, L 26mm	034.367		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	Drill Extender, L 23mm, stainless steel	040.563		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	A Module, Grommet Tray, 3 small, 3 large	041.764		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	A module, Tweezers Tray	041.770		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	Straumann® Modular Cassette, B Module	041.776		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	Roundburr, D 2.3mm, SS	044.003		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	Roundburr, D 3.1mm, SS	044.004		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	RN Bone Profiler	044.304		1		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	WN Profiler	044.305		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	Holding key	046.064		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	SCS Driver Insert, short	046.411		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	SCS Driver Insert, long L 32	046.412		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	Depth Gauge, D 2.8mm, L 27mm, TAN	046.800		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	Depth Gauge, D 3.5mm, L 27mm, TAN	046.802		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X VeloDrill™, guided, D 2.8mm, short, ss	066.1302		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X VeloDrill™, guided, D 3.2mm, short, ss	066.1303		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X VeloDrill™, guided, D3.5mm, short, ss	066.1304		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X VeloDrill™, guided, D4.2mm, short, ss	066.1306		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X VeloDrill™, guided, D 5.2mm, short, ss	066.1308		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X VeloDrill™, guided, D6.2mm, short, ss	066.1309		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X Pilot VeloDrill, guided, D 2.2mm, medium, ss	066.1501		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X VeloDrill™, guided, D 2.8mm, medium, ss	066.1502		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X VeloDrill™, guided, D 3.2mm, medium, ss	066.1503		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X VeloDrill™, guided, D 3.5mm, medium, ss	066.1504		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X VeloDrill™, guided, D 3.7mm, medium, ss	066.1505		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X VeloDrill™, guided, D 4.2mm, medium, ss	066.1506		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	BLX Implant Driver for handpiece, short, L 21mm,	066.4101		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	BLX Implant Driver for ratchet, short, L 21mm, s	066.4201		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	BLX Implant Driver for ratchet, long, L 31mm, st	066.4202		1		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	TorcFit™ Implant Driver for ratchet,medium, L 26	066.4207		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	TLX/TLC Guid.Cylin.f.BoneProf., D3.6, L9.8	049.406S		1		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	BLX Guiding Cylinder for Bone Profiler, L10.8 mm	066.0025S		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	Alignment Pin, D 2.2mm, L 27mm, TAN	046.799		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	X VeloDrill™, guided, D3.7mm, short, ss	066.1305		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+17-07-2026	фак.към доставка	982974999	BLC/TLC Profile Drill, short, FIBA Ш 3.75mm, L26	034.363		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+20-07-2026	кр.изв.към връщане от нас	982999500	Straumann® SIRIOS Support Excellence club	ST6583234	675	-1	675	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+22-07-2026	фак.към доставка	ITLOU26V0201351	TTL LOUPES MODEL 5.7*450 BLACK GREEN	KKA219133	1085	1	-1085	Univet S.p.a.	4360	IT07002060965	IT07002060965	Не	
+22-07-2026	фак.към доставка	ITLOU26V0201351	TECHE 2025 ADAPTER FOR LIGHTING SYSTEM	KZA011031	27.50	1	-27.50	Univet S.p.a.	4360	IT07002060965	IT07002060965	Не	
+22-07-2026	фак.към доставка	ITLOU26V0201350	Model. ONE/LOOK&COOL - Headlight adaptor spare	KZA005531	35.75	3	-107.25	Univet S.p.a.	4360	IT07002060965	IT07002060965	Не	
+22-07-2026	фак.към доставка	ITLOU26V0201350	EOS/LITE LED - Headlight adaptor spare parts ASH	KZ25918.0A	35.75	1	-35.75	Univet S.p.a.	4360	IT07002060965	IT07002060965	Не	
+22-07-2026	фак.към доставка	ITLOU26V0201350	EOS/LITE LED-Headlight adaptor spare parts for I	KZ41718.0A	35.75	1	-35.75	Univet S.p.a.	4360	IT07002060965	IT07002060965	Не	
+22-07-2026	фак.към доставка	ITLOU26V0201350	Lighting system LynxPro	KKA183518	600	1	-600	Univet S.p.a.	4360	IT07002060965	IT07002060965	Не	
+22-07-2026	фак.към доставка	ITLOU26V0201350	Prismatic XS binoculars loupes TTL 4.0x450 ONE B	KKA143434	1482	1	-1482	Univet S.p.a.	4360	IT07002060965	IT07002060965	Не	
+22-07-2026	фак.към доставка	ITLOU26V0201350	Prismatic XS binoculars loupes TTL 5.00x500 XS	KKA157833	1420.25	1	-1420.25	Univet S.p.a.	4360	IT07002060965	IT07002060965	Не	
+22-07-2026	фак.към доставка	ITLOU26V0201350	SPARE PART SET FOR ONE	KZA005331	60.45	1	-60.45	Univet S.p.a.	4360	IT07002060965	IT07002060965	Не	
+22-07-2026	фак.към доставка	ITLOU26V0201350	Транспорт		140	1	-140	Univet S.p.a.	4360	IT07002060965	IT07002060965	Не	
+23-07-2026	фак.към доставка	0000336832	DAFILON 4/0 75 CM DS16	C0935131	1.92	144	-276	Б.БРАУН МЕДИКАЛ ЕООД	6	BG175016820	BG175016820	Не	
+24-07-2026	фак.към доставка	0000336852	Malet Lead Filled 155Gr. D 24 - 8 mm, 190 m	DF114R	77	1	-77	Б.БРАУН МЕДИКАЛ ЕООД	6	BG175016820	BG175016820	Не	
+24-07-2026	фак.към доставка	202641731	Jason Membrane 15 x 20 mm	0681520	46.92	25	-1173	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	Jason Membrane 20x30mm	0682030	57.53	25	-1438.20	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	Jason Membrane 30x40mm	0683040	89.11	5	-445.56	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	Mucoderm 30x40mm	703040	127.30	5	-636.52	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	permamem 15 x 20 mm	801520	24.96	10	-249.60	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	Collacone	511112	3.30	300	-990.20	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	Collafleece 2x2 cm	512212	4	60	-240	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	Cerabone Granulat 0.5-1.0 mm/0,5сс	1510	31.02	10	-310.24	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	Cerabone Granulat 0.5-1.0mm/ 1cc	1511	41.02	10	-410.24	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	Cerabone 0,5-1mm/ 5cc	1515	89.58	20	-1791.68	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	Cerabone 0,5-1mm/ 5cc	1515	89.58	5	-447.92	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	Cerabone Granulate 1,0-2,0mm / 1,0cc	1521	37.63	5	-188.16	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	botiss Titan-Pins	440310	53.04	5	-265.20	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	NOVAMag® membrane 15X20	721520	59.60	15	-894	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	NovaMag connector	74000	6.60	5	-33	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	NOVAMag® fixation screw XS 1.0 x 3.5 (2er)	74100402	41.47	4	-165.88	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	NOVAMag® fixation screw XS 1.0 x 3.5 (2er)	74100402	41.47	1	-41.47	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	NovaMag® safety cutter	BT1001	51.99	1	-51.99	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	NovaMag® sculptur	BT1002	28.16	2	-56.32	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	NovaMag® scissors	BT1003	28.16	2	-56.32	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	NovaMag® steri WashTray	BT1005	76.52	1	-76.52	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	Botiss grafter applicator	550001		100		Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	202641731	Транспорт		134.58	1	-134.58	Botiss Dental GmbH	2418	DE263026844	DE263026844	Не	
+24-07-2026	фак.към доставка	983087303	AS SCREWDRIVER FOR TORQUE WRENCH REGULAR	105.151	24.76	3	-74.29	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	HELIX SHORT ACQUA IMPLANT,TI, 3.75X5.5 mm	140.1083	52.65	5	-263.26	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	GM HELIX LG IMPLANT, TITANIUM, 4.0X20 MM	109.1046	52.64	4	-210.57	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	NGS Regular Tapered Drill D4.0/4.3X8	103.533	31.95	2	-63.89	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	Analog for RN Bar constructions - w. synOcta®	048.108	21.54	4	-86.17	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	BLX Implant, D4.0 mm RB, SLActive® 10mm Roxolid®	061.5310	151.05	35	-5286.64	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RC  Variobase`, for crown, AH 5.5mm, TAN	022.0026	49.55	10	-495.52	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RN synOcta Post for temporary restor. bridge H 9	048.716	34.48	2	-68.95	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	SC Variobase® Abutment, with screw, oval, GH 3mm	022.0040	58.70	2	-117.41	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RC Variobase® for Crown AS,D4.7; AH3.5; GH1	022.0087	49.55	3	-148.65	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RC Variobase®for Crown, D4.5mm AH3.5mm GH2mm	022.0103	49.55	5	-247.76	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RC Screw-ret. Abut.,straight 0°, D 4.6mm, GH 3.5	022.0134S	73.50	5	-367.51	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	SC BO Coping, for Variobase® Abutment, POM	023.0011	19.36	2	-38.73	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	NC/RC Occlusal screw, TAN, for coping, SR	023.4763	5.40	40	-215.93	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	Repositionable Analog for SR abutment D 4.6mm	025.0008	21.54	10	-215.43	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	Impression Post open tray for SR Non eng. D4.6mm	025.0012	22.61	10	-226.10	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RC Scanbody incl. ret. screw	025.0079	29.89	10	-298.92	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	SRA Scanbody D 4.6, incl. ret. screw	025.0081	29.89	10	-298.92	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	NC Basal Screw, TAN	025.2900	14	1	-14	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	NC/RC SRBB Bone Level Screw	025.2926	14	1	-14	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	Repositionable Implant Analog RC	025.4102	21.54	15	-323.14	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	NT Healing Cap, D 4mm, H 3mm, Ti	036.0203S	19.09	10	-190.85	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	NT/RT/WT SCANBODY INCL. RETENTION SCREW	036.3230	29.89	10	-298.92	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	Drill 1, short, D 2.2mm, l 33.0mm, SS	044.210	21.54	2	-43.08	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RN Variobase® for Bridge/Bar Cylindrical, incl.	048.378	49.55	2	-99.10	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	NT VARIOBASE® XC FOR BRIDGE/BAR D 4mm, AH 7mm	062.5003	55.20	5	-276.01	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	NT VB XC f.Crown, D 4mm, AH 7mm,TAN	062.5025	55.20	5	-276.01	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RB Closure Cap, Crown, H 0.4mm, Ti	064.4100S	18.98	50	-949.24	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RB/WB healing Crown,D 4 mm, GH 1.5 mm, AH4mm	064.4203S	18.98	12	-227.82	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RB/WB Healing Abut., Crown, D4mm, GH2.5mm,AH2mm	064.4204S	18.98	12	-227.82	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RB/WB Healing Ab, Crown, D 5mm, GH 3.5mm, AH 6mm	064.4244S	18.98	1	-18.98	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RB Implant Analog L12	065.0021	23.74	5	-118.69	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	TorcFit Implant Driver for handpiece, extra long	066.4108	38.61	2	-77.22	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	BLX Implant Driver for ratchet, long, L 31mm, st	066.4202	39.35	2	-78.70	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	TorcFit™ Implant Driver for ratchet,medium, L 26	066.4207	38.61	2	-77.22	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	Novaloc® Retention Insert Yellow-NOV	2010.712-NOV	17.78	1	-17.78	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	Novaloc® Retention Insert Yellow-NOV	2010.712-NOV	17.78	1	-17.78	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	Novaloc® Retention Insert Green - Strong, PEEK	2010.713-NOV	17.77	2	-35.55	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	Straumann XenoGraft, 1000-2000 µ,1.0g, 2.9cc	S1-1020-100	62.88	10	-628.79	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	Optiloc® Opt. Mount&Dem.Tool f.Ret.Inserts,cours	3202.0001STMC	12.22	1	-12.22	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	VARIOBASE XC FOR BRIDGE/BAR COPING D 4.6MM, H 7M	023.0040	51.52	30	-1545.47	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087303	RB/WB Healing abut., Crown, D4 GH 2.5, AH 4	064.4205S	18.98	12	-227.82	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087294	NGS Regular Tapered Drill D4.0/4.3X8	103.533		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087294	NGS Narrow Tapered Drill D3.5/3.75x11.5	103.552		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087294	NGS Regular Tapered Drill D4.0/4.3X8	103.533		2		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087294	BLX Implant,D3.75 mm RB, SLActive® 10mm Roxolid®	061.4310		20		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+24-07-2026	фак.към доставка	983087294	BLX Implant, D4.0 mm RB, SLActive® 10mm Roxolid®	061.5310		14		Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+27-07-2026	фак.към доставка	983124862	Titanium base 2nd Generation RP 5.5 GH 1.15	F 1310	33.72	2	-67.44	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+27-07-2026	фак.към доставка	983124862	Screw extractor M 1.6	M 06	23.24	1	-23.24	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+27-07-2026	фак.към доставка	983124862	Titanium base SSC Flex	2-09-27	29.55	1	-29.55	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
+27-07-2026	фак.към доставка	983124862	Titanium base SSC Flex - incl. Adutmentschrau	2-09-26	29.55	1	-29.55	Institut Straumann AG	1780	CHE-116.331.762	CHE-116.331.762	Не	
