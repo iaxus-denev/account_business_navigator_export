@@ -7,15 +7,16 @@
     "description": """
 Business Navigator Export
 ==========================
+
 Manual export of posted account.move / account.move.line data into
 CP1251 / TAB / CRLF TXT files compatible with the existing Business
 Navigator import filters:
 
- * Sales 20% VAT TXT file
- * Sales 9% VAT TXT file
- * One combined Purchases TXT file (Bulgaria + foreign suppliers)
- * Optional ZIP package of all non-empty files
- * Export batch history with checksums and warnings
+* Sales 20% VAT TXT file
+* Sales 9% VAT TXT file
+* One combined Purchases TXT file (Bulgaria + foreign suppliers)
+* Optional ZIP package of all non-empty files
+* Export batch history with checksums and warnings
 
 The module is a pure export layer on top of standard Odoo accounting
 models. It does not duplicate invoices, does not change posting logic,
