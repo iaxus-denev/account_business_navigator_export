@@ -61,7 +61,7 @@
                     <notebook>
                         <page string="Файлове">
                             <field name="file_ids">
-                                <list editable="false">
+                                <list>
                                     <field name="file_type"/>
                                     <field name="filename"/>
                                     <field name="document_count"/>
