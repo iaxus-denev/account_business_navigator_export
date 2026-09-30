@@ -13,8 +13,8 @@ class BusinessNavigatorExportBatch(models.Model):
     name = fields.Char(required=True, copy=False, readonly=True, default='New')
     company_id = fields.Many2one('res.company', required=True, readonly=True,
                                   default=lambda self: self.env.company)
-    date_from = fields.Date(required=True, readonly=True)
-    date_to = fields.Date(required=True, readonly=True)
+    date_from = fields.Date(readonly=True)
+    date_to = fields.Date(readonly=True)
     state = fields.Selection(
         [('validating', 'Validating'), ('done', 'Done'), ('failed', 'Failed')],
         required=True, default='validating', readonly=True)

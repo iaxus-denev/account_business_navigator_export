@@ -10,8 +10,17 @@
                         <field name="company_id"
                                domain="[('id', 'in', allowed_company_ids)]"
                                options="{'no_create': True}"/>
-                        <field name="date_from"/>
-                        <field name="date_to"/>
+                        <field name="export_selection_mode" widget="radio"/>
+                        <field name="date_from"
+                               invisible="export_selection_mode != 'date_range'"
+                               required="export_selection_mode == 'date_range'"/>
+                        <field name="date_to"
+                               invisible="export_selection_mode != 'date_range'"
+                               required="export_selection_mode == 'date_range'"/>
+                        <field name="document_numbers"
+                               invisible="export_selection_mode != 'document_numbers'"
+                               required="export_selection_mode == 'document_numbers'"
+                               placeholder="0000082804&#10;0000082808&#10;0000082853"/>
                     </group>
                     <group>
                         <field name="export_sales_20"/>

@@ -31,6 +31,11 @@ FILE_TYPE_SALES_9 = 'sales_9'
 FILE_TYPE_PURCHASES = 'purchases'
 FILE_TYPES = (FILE_TYPE_SALES_20, FILE_TYPE_SALES_9, FILE_TYPE_PURCHASES)
 
+# Export scope selection modes (addendum v1.1 §2-§3)
+SCOPE_MODE_DATE_RANGE = 'date_range'
+SCOPE_MODE_DOCUMENT_NUMBERS = 'document_numbers'
+SCOPE_MODES = (SCOPE_MODE_DATE_RANGE, SCOPE_MODE_DOCUMENT_NUMBERS)
+
 ADVANCE_DESCRIPTION = 'Авансово плащане'
 
 # Physical format limits (spec §3.1, §9)
@@ -63,6 +68,12 @@ VAL_MESSAGES = {
     'VAL-15': 'Неподдържан CP1251 символ.',
     'VAL-16': 'Невалиден контролен символ след нормализация.',
     'VAL-17': 'Advance product code не е уникален сред активните продукти.',
+    # Export scope selection validations (addendum v1.1 §8)
+    'VAL-18': 'Моля, попълнете начална и крайна дата.',
+    'VAL-19': 'Въведете поне един номер на фактура/документ.',
+    'VAL-20': 'Не са намерени следните документи.',
+    'VAL-21': 'Документът не е осчетоводен (posted).',
+    'VAL-22': 'Номерът съответства на повече от една покупна фактура.',
 }
 
 # Warning messages (spec §16.2)

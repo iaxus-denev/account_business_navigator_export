@@ -259,3 +259,133 @@ class TestBnExportWizard(BnExportTestCommon):
                 'date_from': date(2026, 7, 1),
                 'date_to': date(2026, 7, 31),
             })
+
+
+@tagged('post_install', '-at_install')
+class TestBnExportScopeSelection(BnExportTestCommon):
+    """Addendum v1.1: export scope by date range vs by document numbers."""
+
+    def _wizard(self, **values):
+        base = {
+            'company_id': self.company.id,
+            'export_sales_9': False,
+            'export_purchases': False,
+        }
+        base.update(values)
+        return self.env['business.navigator.export.wizard'].create(base)
+
+    def test_default_mode_is_date_range(self):
+        # TC-01
+        wizard = self.env['business.navigator.export.wizard'].create({
+            'company_id': self.company.id,
+        })
+        self.assertEqual(wizard.export_selection_mode, C.SCOPE_MODE_DATE_RANGE)
+
+    def test_date_range_mode_unchanged(self):
+        # TC-02: regression - same output as before the addendum.
+        self.bn_invoice(lines=[self.bn_line()])
+        wizard = self._wizard(export_selection_mode=C.SCOPE_MODE_DATE_RANGE,
+                               date_from=date(2026, 7, 1), date_to=date(2026, 7, 31))
+        wizard.action_generate()
+        self.assertEqual(wizard.state, 'done')
+        self.assertEqual(wizard.batch_id.file_ids.line_count, 1)
+
+    def test_single_document_number(self):
+        # TC-04
+        move = self.bn_invoice(lines=[self.bn_line()])
+        other = self.bn_invoice(invoice_date=date(2026, 7, 20), lines=[self.bn_line()])
+        wizard = self._wizard(export_selection_mode=C.SCOPE_MODE_DOCUMENT_NUMBERS,
+                               document_numbers=move.name)
+        wizard.action_generate()
+        self.assertEqual(wizard.state, 'done')
+        self.assertEqual(wizard.batch_id.file_ids.document_count, 1)
+        content = wizard.batch_id.file_ids.attachment_id.raw.decode('cp1251')
+        self.assertIn(move.name, content)
+        self.assertNotIn(other.name, content)
+
+    def test_multiple_numbers_various_separators_and_duplicates(self):
+        # TC-05, TC-06, TC-08
+        moves = [self.bn_invoice(invoice_date=date(2026, 7, 1 + i),
+                                  lines=[self.bn_line()]) for i in range(5)]
+        numbers_text = '%s,%s\n%s;%s\n%s\n%s' % (
+            moves[0].name, moves[1].name, moves[2].name, moves[3].name,
+            moves[4].name, moves[0].name)  # last one duplicated
+        wizard = self._wizard(export_selection_mode=C.SCOPE_MODE_DOCUMENT_NUMBERS,
+                               document_numbers=numbers_text)
+        wizard.action_generate()
+        self.assertEqual(wizard.state, 'done')
+        self.assertEqual(wizard.batch_id.file_ids.document_count, 5)
+        self.assertEqual(wizard.batch_id.file_ids.line_count, 5)
+
+    def test_leading_zeros_preserved(self):
+        # TC-07
+        move = self.bn_invoice(lines=[self.bn_line()])
+        move.write({'name': '0000082804'})
+        wizard = self._wizard(export_selection_mode=C.SCOPE_MODE_DOCUMENT_NUMBERS,
+                               document_numbers='0000082804')
+        wizard.action_generate()
+        self.assertEqual(wizard.state, 'done')
+        content = wizard.batch_id.file_ids.attachment_id.raw.decode('cp1251')
+        self.assertIn('0000082804', content)
+
+    def test_number_not_found_blocks_export(self):
+        # TC-09
+        wizard = self._wizard(export_selection_mode=C.SCOPE_MODE_DOCUMENT_NUMBERS,
+                               document_numbers='NOPE-999')
+        wizard.action_generate()
+        self.assertEqual(wizard.state, 'error')
+        self.assertIn('VAL-20', wizard.batch_id.error_message)
+        self.assertIn('NOPE-999', wizard.batch_id.error_message)
+        self.assertFalse(wizard.batch_id.file_ids)
+
+    def test_draft_document_number_blocks_export(self):
+        # TC-10
+        draft_move = self._create_invoice(
+            move_type='out_invoice', invoice_date=date(2026, 7, 16),
+            invoice_line_ids=[self.bn_line()], partner_id=self.partner_bn.id, post=False)
+        wizard = self._wizard(export_selection_mode=C.SCOPE_MODE_DOCUMENT_NUMBERS,
+                               document_numbers=draft_move.name)
+        wizard.action_generate()
+        self.assertEqual(wizard.state, 'error')
+        self.assertIn('VAL-21', wizard.batch_id.error_message)
+
+    def test_purchase_by_vendor_ref(self):
+        # TC-11
+        move = self.bn_invoice(move_type='in_invoice', partner=self.partner_bn,
+                                ref='SUPP-REF-01', lines=[self.bn_line()])
+        wizard = self._wizard(export_selection_mode=C.SCOPE_MODE_DOCUMENT_NUMBERS,
+                               document_numbers='SUPP-REF-01',
+                               export_sales_20=False, export_purchases=True)
+        wizard.action_generate()
+        self.assertEqual(wizard.state, 'done')
+        content = wizard.batch_id.file_ids.attachment_id.raw.decode('cp1251')
+        self.assertIn('SUPP-REF-01', content)
+
+    def test_different_dates_use_min_max_in_filename_and_only_selected_docs(self):
+        # TC-12
+        move1 = self.bn_invoice(invoice_date=date(2026, 8, 24), lines=[self.bn_line()])
+        move2 = self.bn_invoice(invoice_date=date(2026, 8, 25), lines=[self.bn_line()])
+        other = self.bn_invoice(invoice_date=date(2026, 8, 26), lines=[self.bn_line()])
+        wizard = self._wizard(
+            export_selection_mode=C.SCOPE_MODE_DOCUMENT_NUMBERS,
+            document_numbers='%s\n%s' % (move1.name, move2.name))
+        wizard.action_generate()
+        self.assertEqual(wizard.state, 'done')
+        filename = wizard.batch_id.file_ids.filename
+        self.assertIn('24.08-25.08.2026', filename)
+        content = wizard.batch_id.file_ids.attachment_id.raw.decode('cp1251')
+        self.assertIn(move1.name, content)
+        self.assertIn(move2.name, content)
+        self.assertNotIn(other.name, content)
+
+    def test_ambiguous_purchase_ref_blocks_export(self):
+        self.bn_invoice(move_type='in_invoice', partner=self.partner_bn,
+                         ref='DUP-REF', lines=[self.bn_line()])
+        self.bn_invoice(move_type='in_invoice', partner=self.partner_foreign,
+                         ref='DUP-REF', lines=[self.bn_line()])
+        wizard = self._wizard(export_selection_mode=C.SCOPE_MODE_DOCUMENT_NUMBERS,
+                               document_numbers='DUP-REF',
+                               export_sales_20=False, export_purchases=True)
+        wizard.action_generate()
+        self.assertEqual(wizard.state, 'error')
+        self.assertIn('VAL-22', wizard.batch_id.error_message)

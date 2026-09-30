@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 import base64
 import json
+import re
 
 from odoo import api, fields, models
 from odoo.exceptions import AccessError, UserError
@@ -15,8 +16,16 @@ class BusinessNavigatorExportWizard(models.TransientModel):
 
     company_id = fields.Many2one('res.company', required=True,
                                   default=lambda self: self.env.company)
-    date_from = fields.Date(required=True)
-    date_to = fields.Date(required=True)
+    export_selection_mode = fields.Selection(
+        [(C.SCOPE_MODE_DATE_RANGE, 'По период'),
+         (C.SCOPE_MODE_DOCUMENT_NUMBERS, 'По номера на фактури')],
+        required=True, default=C.SCOPE_MODE_DATE_RANGE)
+    date_from = fields.Date()
+    date_to = fields.Date()
+    document_numbers = fields.Text(
+        string='Номера на фактури / документи',
+        help='Един номер на ред, или разделени със запетая/точка и запетая. '
+             'Водещите нули се запазват.')
     export_sales_20 = fields.Boolean(default=True)
     export_sales_9 = fields.Boolean(default=True)
     export_purchases = fields.Boolean(default=True)
@@ -43,6 +52,21 @@ class BusinessNavigatorExportWizard(models.TransientModel):
         if self.company_id not in self.env.user.company_ids:
             raise AccessError('Нямате достъп до избраната компания.')
 
+    def _parse_document_numbers(self):
+        """Addendum v1.1 §4.1: split on newline/comma/semicolon, trim only
+        leading/trailing spaces around each entry, drop blanks, de-duplicate
+        while preserving leading zeros (values stay plain strings, never
+        coerced to numbers).
+        """
+        raw = self.document_numbers or ''
+        parts = re.split(r'[\n,;]+', raw)
+        seen = []
+        for part in parts:
+            number = part.strip()
+            if number and number not in seen:
+                seen.append(number)
+        return seen
+
     def _build_service(self):
         self._ensure_allowed_company()
         options = {
@@ -50,15 +74,21 @@ class BusinessNavigatorExportWizard(models.TransientModel):
             'export_sales_9': self.export_sales_9,
             'export_purchases': self.export_purchases,
             'include_zero_value_lines': self.include_zero_value_lines,
+            'selection_mode': self.export_selection_mode,
         }
+        if self.export_selection_mode == C.SCOPE_MODE_DOCUMENT_NUMBERS:
+            options['document_numbers'] = self._parse_document_numbers()
         return BnExportService(self.env, self.company_id, self.date_from,
                                 self.date_to, options)
 
     def _selection_dict(self):
         return {
             'company_id': self.company_id.id,
-            'date_from': str(self.date_from),
-            'date_to': str(self.date_to),
+            'export_selection_mode': self.export_selection_mode,
+            'date_from': str(self.date_from) if self.date_from else None,
+            'date_to': str(self.date_to) if self.date_to else None,
+            'document_numbers': self._parse_document_numbers()
+                if self.export_selection_mode == C.SCOPE_MODE_DOCUMENT_NUMBERS else None,
             'export_sales_20': self.export_sales_20,
             'export_sales_9': self.export_sales_9,
             'export_purchases': self.export_purchases,
@@ -70,8 +100,11 @@ class BusinessNavigatorExportWizard(models.TransientModel):
         if result['errors']:
             lines.append('Грешки (%d):' % result['error_count'])
             for e in result['errors']:
-                lines.append(' - [%s] %s (%s / %s)' % (
-                    e['code'], e['message'], e['document'], e['field']))
+                text = ' - [%s] %s (%s / %s)' % (
+                    e['code'], e['message'], e['document'], e['field'])
+                if e.get('detail'):
+                    text += ' — %s' % e['detail']
+                lines.append(text)
             if result['error_count'] > len(result['errors']):
                 lines.append(' ... и още %d' % (result['error_count'] - len(result['errors'])))
         if result['warnings']:
@@ -84,6 +117,14 @@ class BusinessNavigatorExportWizard(models.TransientModel):
         return '\n'.join(lines)
 
     def _check_prior_batch_warning(self, result):
+        # WRN-04 ("repeat period export") is only meaningful for the
+        # date-range mode. In "by document numbers" mode the wizard's
+        # date_from/date_to fields may hold stale values left over from a
+        # previous mode switch (spec §6 explicitly keeps hidden field
+        # values intact), so comparing against them here would produce a
+        # misleading warning unrelated to the actually selected documents.
+        if self.export_selection_mode != C.SCOPE_MODE_DATE_RANGE:
+            return
         existing = self.env['business.navigator.export.batch'].search([
             ('company_id', '=', self.company_id.id),
             ('date_from', '=', self.date_from),
@@ -155,8 +196,8 @@ class BusinessNavigatorExportWizard(models.TransientModel):
         """Persist diagnostics for a failed Generate run without files."""
         return self.env['business.navigator.export.batch'].create({
             'company_id': self.company_id.id,
-            'date_from': self.date_from,
-            'date_to': self.date_to,
+            'date_from': result.get('effective_date_from') or self.date_from,
+            'date_to': result.get('effective_date_to') or self.date_to,
             'state': 'failed',
             'selection_json': json.dumps(self._selection_dict()),
             'warning_count': result['warning_count'],
@@ -172,10 +213,12 @@ class BusinessNavigatorExportWizard(models.TransientModel):
     def _create_batch_with_files(self, result):
         Batch = self.env['business.navigator.export.batch']
         File = self.env['business.navigator.export.file']
+        eff_date_from = result.get('effective_date_from') or self.date_from
+        eff_date_to = result.get('effective_date_to') or self.date_to
         batch = Batch.create({
             'company_id': self.company_id.id,
-            'date_from': self.date_from,
-            'date_to': self.date_to,
+            'date_from': eff_date_from,
+            'date_to': eff_date_to,
             'state': 'validating',
             'selection_json': json.dumps(self._selection_dict()),
             'warning_count': result['warning_count'],
@@ -185,7 +228,7 @@ class BusinessNavigatorExportWizard(models.TransientModel):
         })
 
         payloads = result.get('payloads', {})
-        filenames = self._build_filenames()
+        filenames = self._build_filenames(eff_date_from, eff_date_to)
         total_lines = 0
         zip_entries = {}
 
@@ -199,7 +242,7 @@ class BusinessNavigatorExportWizard(models.TransientModel):
 
         if zip_entries:
             zip_bytes = BnExportService.build_zip(zip_entries)
-            zip_filename = self._build_zip_filename()
+            zip_filename = self._build_zip_filename(eff_date_from, eff_date_to)
             zip_attachment = self.env['ir.attachment'].create({
                 'name': zip_filename,
                 'datas': base64.b64encode(zip_bytes),
@@ -228,8 +271,14 @@ class BusinessNavigatorExportWizard(models.TransientModel):
         name = self.company_id.name or ''
         return ''.join(ch for ch in name if ch.isalnum() or ch in (' ', '-', '_')).strip().replace(' ', '_')
 
-    def _build_filenames(self):
-        period = '%s-%s' % (self.date_from.strftime('%d.%m'), self.date_to.strftime('%d.%m.%Y'))
+    def _build_filenames(self, date_from, date_to):
+        # Addendum v1.1 §5.1: when the resolved documents span a single
+        # date (typical for the "by document numbers" mode), the filename
+        # keeps just that one date instead of a "same-same" range.
+        if date_from == date_to:
+            period = date_from.strftime('%d.%m.%Y')
+        else:
+            period = '%s-%s' % (date_from.strftime('%d.%m'), date_to.strftime('%d.%m.%Y'))
         company = self._company_label()
         return {
             C.FILE_TYPE_SALES_20: '%s_%s_%s.txt' % (
@@ -240,10 +289,10 @@ class BusinessNavigatorExportWizard(models.TransientModel):
                 self.company_id.bn_purchase_filename_prefix, company, period),
         }
 
-    def _build_zip_filename(self):
+    def _build_zip_filename(self, date_from, date_to):
         company = self._company_label()
         return 'BN_Export_%s_%s_%s.zip' % (
-            company, self.date_from.strftime('%Y%m%d'), self.date_to.strftime('%Y%m%d'))
+            company, date_from.strftime('%Y%m%d'), date_to.strftime('%Y%m%d'))
 
     def _reopen_action(self):
         self.ensure_one()

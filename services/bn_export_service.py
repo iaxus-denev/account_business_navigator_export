@@ -8,6 +8,7 @@ formatting delegated to :mod:`bn_formatter`, and all business constants in
 """
 import io
 import zipfile
+from datetime import date as date_cls
 from decimal import Decimal
 
 from . import bn_constants as C
@@ -49,6 +50,10 @@ class BnExportService:
         self.export_sales_9 = options.get('export_sales_9', True)
         self.export_purchases = options.get('export_purchases', True)
         self.include_zero_value_lines = options.get('include_zero_value_lines', True)
+        self.selection_mode = options.get('selection_mode', C.SCOPE_MODE_DATE_RANGE)
+        self.document_numbers = options.get('document_numbers', [])
+        self.effective_date_from = date_from
+        self.effective_date_to = date_to
 
         self.errors = []
         self.warnings = []
@@ -87,14 +92,16 @@ class BnExportService:
 
     def _check_preconditions(self):
         eur = self.env.ref('base.EUR', raise_if_not_found=False)
-        if self.date_from and self.date_to and self.date_from > self.date_to:
-            self._add_error('VAL-01')
+        if self.selection_mode == C.SCOPE_MODE_DATE_RANGE:
+            if not self.date_from or not self.date_to:
+                self._add_error('VAL-18', field='Период')
+            elif self.date_from > self.date_to:
+                self._add_error('VAL-01')
+        elif self.selection_mode == C.SCOPE_MODE_DOCUMENT_NUMBERS:
+            if not self.document_numbers:
+                self._add_error('VAL-19', field='Номера')
         if not eur or self.company.currency_id.id != eur.id:
             self._add_error('VAL-02')
-        if not (self.export_sales_20 or self.export_sales_9 or self.export_purchases):
-            # Not a spec VAL code, but nothing to do - treat as a no-op,
-            # not an error; caller (wizard) should prevent this state.
-            pass
         self._check_advance_code_uniqueness()
 
     def _check_advance_code_uniqueness(self):
@@ -120,12 +127,16 @@ class BnExportService:
     # §6.1 domain / §8.1 ordering
     # ------------------------------------------------------------------
 
-    def _get_moves(self):
+    def _allowed_move_types(self):
         move_types = []
         if self.export_sales_20 or self.export_sales_9:
             move_types += list(C.SALE_MOVE_TYPES)
         if self.export_purchases:
             move_types += list(C.PURCHASE_MOVE_TYPES)
+        return move_types
+
+    def _get_moves_by_date_range(self):
+        move_types = self._allowed_move_types()
         if not move_types:
             return self.env['account.move']
         domain = [
@@ -141,6 +152,55 @@ class BnExportService:
             ('invoice_date', '<=', self.date_to),
         ]
         return self.env['account.move'].search(domain, order='invoice_date, id')
+
+    def _get_moves_by_document_numbers(self, numbers):
+        """Addendum v1.1 §4: resolve each entered document number to a
+        posted account.move, restricted to the move types allowed by the
+        currently selected export options (§4 "Ако wizard-ът е конфигуриран
+        за конкретен вид export..."). Sales documents are matched by
+        ``move.name``, purchase documents by ``move.ref`` (§4 table).
+        Any unresolved/ambiguous/unposted number blocks the ENTIRE export
+        (§4.2) - no partial results are ever returned.
+        """
+        move_types = self._allowed_move_types()
+        sale_types = [t for t in move_types if t in C.SALE_MOVE_TYPES]
+        purchase_types = [t for t in move_types if t in C.PURCHASE_MOVE_TYPES]
+        found = self.env['account.move']
+        for number in numbers:
+            matches = self.env['account.move']
+            if sale_types:
+                matches |= self.env['account.move'].search([
+                    ('company_id', '=', self.company.id),
+                    ('move_type', 'in', sale_types),
+                    ('name', '=', number),
+                ])
+            if purchase_types:
+                matches |= self.env['account.move'].search([
+                    ('company_id', '=', self.company.id),
+                    ('move_type', 'in', purchase_types),
+                    ('ref', '=', number),
+                ])
+            if not matches:
+                self._add_error('VAL-20', document=number, field='Номер')
+                continue
+            posted_matches = matches.filtered(lambda m: m.state == 'posted')
+            if not posted_matches:
+                self._add_error('VAL-21', document=number, field='Номер')
+                continue
+            if len(posted_matches) > 1:
+                self._add_error(
+                    'VAL-22', document=number, field='Номер',
+                    detail=', '.join('%s (%s, %s)' % (
+                        m.display_name, m.invoice_date, m.commercial_partner_id.name)
+                        for m in posted_matches))
+                continue
+            found |= posted_matches
+        return found
+
+    def _get_export_moves(self):
+        if self.selection_mode == C.SCOPE_MODE_DOCUMENT_NUMBERS:
+            return self._get_moves_by_document_numbers(self.document_numbers)
+        return self._get_moves_by_date_range()
 
     def _get_exportable_lines(self, move):
         lines = move.invoice_line_ids.filtered(lambda l: l.display_type == 'product')
@@ -345,7 +405,16 @@ class BnExportService:
     # ------------------------------------------------------------------
 
     def _build_rows(self):
-        moves = self._get_moves()
+        moves = self._get_export_moves()
+        if self.errors:
+            # Scope resolution already failed (VAL-20/21/22) - do not proceed
+            # to row-building on a partial/ambiguous move set (§4.2).
+            return
+        moves = moves.sorted(key=lambda m: (m.invoice_date or date_cls.min, m.id))
+        dated_moves = moves.filtered(lambda m: m.invoice_date)
+        if dated_moves:
+            self.effective_date_from = min(dated_moves.mapped('invoice_date'))
+            self.effective_date_to = max(dated_moves.mapped('invoice_date'))
         self._document_number_cache = {}
         # Explicit prefetching keeps the 10k-line export on O(1)-ish query
         # counts instead of progressively loading relations inside the loop.
@@ -446,6 +515,8 @@ class BnExportService:
             'errors': [e.to_dict() for e in self.errors[:100]],
             'warnings': [w.to_dict() for w in self.warnings],
             'warning_count': len(self.warnings),
+            'effective_date_from': self.effective_date_from,
+            'effective_date_to': self.effective_date_to,
         }
 
     # ------------------------------------------------------------------
